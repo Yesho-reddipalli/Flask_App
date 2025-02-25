@@ -54,10 +54,10 @@ Task Master is a simple task management web application built with Flask and SQL
 
 ## Project Structure
 
-- [app.py]: Main application file
-- [requirements.txt]: List of dependencies
-- [static]: Static files (CSS)
-- [templates]: HTML templates
+- **app.py**: Main application file
+- **requirements.txt**: List of dependencies
+- **static**: Static files (CSS)
+- **templates**: HTML templates
 
 ## Tools Used
 
