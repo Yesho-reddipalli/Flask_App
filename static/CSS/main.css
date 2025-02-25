@@ -1,9 +1,58 @@
-body{
-    margin:0;
+body {
     font-family: Arial, Helvetica, sans-serif;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the content is centered vertically */
+    margin: 0; /* Removes default margin */
+    flex-direction: column;
+    text-align: center;
 }
-h1{
-    margin:0;
-    font-family: 'Times New Roman', Times, serif;
+
+table {
+    border-collapse: collapse; /* Ensures borders are collapsed together */
+    width: 50%; /* Optional, adjusts the width of the table */
+    margin: 20px auto; /* Centers the table horizontally with some space around it */
+}
+
+th, td {
+    border: 1px solid black; /* Adds a border around the table cells */
+    padding: 8px; /* Optional, adds space inside the cells */
+    text-align: left; /* Optional, aligns text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Optional, adds a background color to the header cells */
+}
+
+.content {
+    width: 100%;
+    max-width: 800px; /* Optional, limits the width of the content */
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px; /* Adds space between the table and the form */
+    text-align: center; /* Centers the form */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%; /* Optional, adjust the width of the input */
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="Submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="Submit"]:hover {
+    background-color: #45a049;
 }
